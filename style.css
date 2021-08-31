@@ -1,0 +1,78 @@
+body{
+  background-image: url(sfondo.jpg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+}
+
+
+img{
+  width: 200px;
+  display: block;
+  margin:0 auto;
+}
+
+
+h1{
+color: #39ff14;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+.navigazione{
+  background-color: #39ff14;
+  padding: 15px;
+  width: 700px;
+}
+
+
+.monopattini{
+  width: 730px;
+}
+
+
+.monopattini, .navigazione{
+  margin: auto;
+}
+
+.bottoni, h1{
+  text-align: center;
+}
+
+
+h3{
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.barra{
+  width: 20%;
+  color: orange;
+}
+
+.barra2{
+  width: 35%;
+  color: green;
+}
+
+.barra3{
+  width: 8%;
+  color: red;
+}
+
+.barra, .barra2, .barra3{
+  border: 1em solid;
+  border-radius: 10px 10px 10px 10px;
+  position: relative; left: 85px;
+}
+
+.sfondo-trasparente{
+  background: rgba(0, 0, 0, 0.4);
+  width: 900px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
